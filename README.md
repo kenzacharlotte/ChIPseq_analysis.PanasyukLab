@@ -1,2 +1,20 @@
-# ChIPseq_analysis.PanasyukLab
+# ChIPseq analysis in PanasyukLab
 A step by step description of my ChIPseq pipeline. 
+
+<img align="center" src="./ChIPseq_workflow.png" alt="ChIP workflow" width="1500"> 
+
+## Quality check & alignment
+### *Quality check*
+### *Alignment with Bowtie2*
+### *Ordering & cleaning the output*
+- mark and exclude duplicates
+- exclude ENCODE blacklist
+- sort bam
+- index bam
+## Normalization step
+- csaw normalization (for unspecific binding): very useful for big wig normalization and plotting heatmap
+## Model fitting 
+### *Peak calling with MACS2*
+### *Annotatepeaks*
+### *Differential binding & normalization*
+### *Motif identitfication & other tools - HOMER*

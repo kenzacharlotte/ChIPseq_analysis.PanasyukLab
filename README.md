@@ -17,6 +17,8 @@ A step by step description of my ChIPseq pipeline.
 - csaw normalization (for unspecific binding): very useful for big wig normalization and plotting heatmap
 ## Model fitting 
 ### *Peak calling with MACS2*
+### *Differential binding*
+'diffbind' package to indentify differential peaks between conditions. 
+> *WARNING: pipeline underconstruction*
 ### *Annotatepeaks*
-### *Differential binding & normalization*
 ### *Motif identitfication & other tools - HOMER*

@@ -18,7 +18,10 @@ A step by step description of my ChIPseq pipeline.
 ## Model fitting 
 ### *Peak calling with MACS2*
 ### *Differential binding*
-'diffbind' package to indentify differential peaks between conditions. 
+```py
+library(diffbind)
+```
+Identify differential peaks between conditions. 
 > *WARNING: pipeline underconstruction*
 ### *Annotatepeaks*
 ### *Motif identitfication & other tools - HOMER*
